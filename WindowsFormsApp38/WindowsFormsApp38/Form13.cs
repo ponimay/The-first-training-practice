@@ -49,5 +49,10 @@ namespace WindowsFormsApp38
         {
             Program.form34.ShowDialog();
         }
+
+        private void button4_Click(object sender, EventArgs e)
+        {
+            listBox2.Items.Remove(listBox2.SelectedItem);
+        }
     }
 }
